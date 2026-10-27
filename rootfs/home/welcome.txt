@@ -1,0 +1,8 @@
+This file lives in Kiwi's ramfs.  Like every file here it is held in RAM
+compressed with KLZ (an LZ77 variant); it is inflated only while open and
+re-compressed when the last writer closes it.  Try:
+
+    ls -l             compare SIZE with IN RAM
+    kedit welcome.txt edit me, save with ^S, watch the compressed size
+    memstat           see page compression (zram) at work
+    memhog 32         allocate 32 MB in C and watch it get compressed

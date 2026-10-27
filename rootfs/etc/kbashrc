@@ -1,0 +1,7 @@
+# /etc/kbashrc - read by every interactive kbash
+alias ll='ls -l'
+alias la='ls -la'
+alias js='kjs'
+alias ..='cd ..'
+alias edit='kedit'
+alias startx='desktop'

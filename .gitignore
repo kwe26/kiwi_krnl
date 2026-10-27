@@ -1,0 +1,34 @@
+# Build output: kernel, libc, QuickJS objects, programs, root tree, initrd
+/build/
+
+# Compiler leftovers outside build/
+*.o
+*.a
+*.d
+
+# tools/kiwitest.py artifacts (screenshots, QEMU monitor sockets)
+*.png
+*.ppm
+*.sock
+
+# QEMU / debugging
+*.log
+*.img
+*.iso
+core
+core.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local Claude Code settings
+.claude/settings.local.json

@@ -1,0 +1,8 @@
+Welcome to Kiwi!  Everything above the kernel is JavaScript.
+
+  help          builtins and programs       kedit FILE   text editor
+  memstat       memory compression stats    kfetch       system info
+  ls -l /bin    see files stored compressed kjs          JavaScript REPL
+  = 6 * 7       evaluate JS in the shell    halt         power off
+  kjs demo.js   watch idle memory compression in action
+
